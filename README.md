@@ -11,7 +11,7 @@ The creation of a custom centrifuge database can be painful. Indeed, you have to
 
 The main program is centrifuge_database_creator. It takes the wanted taxonomy in a newick format, a bunch of fasta files (for your database) and creates for you the corresponding names.dmp, nodes.dmp and seqid2taxid.map required for centrifuge-build.
 
-## Use-case: ok how can I use this stuff?
+## Use-case: ok how can I use this?
 
 ### Exemple 1: adding new sequences from official taxonomy
 
