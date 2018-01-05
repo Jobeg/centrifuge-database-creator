@@ -42,8 +42,8 @@ class Sequence:
 
 # Argument selection and help
 def ArgumentsParser():
-  parser=argparse.ArgumentParser(description = '''centrifuge_database_creator: Create all required files for building a custom centrifuge database.''',
-                                 epilog = '''Require a taxonomy in newick format.''')
+  parser=argparse.ArgumentParser(description = '''taxonomy_converter: Create a newick file fro mnames.dmp and nodes.dmp.''',
+                                 epilog = '''Secondary script.''')
   parser.add_argument('-n', '--name', type = str, required = False,
                       help = 'Name of the output database.')
   parser.add_argument('-a', '--names', type = str, required = True,
